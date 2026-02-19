@@ -1,0 +1,49 @@
+/* assets/css/style.css */
+body {
+    background: linear-gradient(to bottom, #f8f9fa 0%, #e9ecef 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-success {
+    background-color: #013220 !important;
+    border-color: #013220 !important;
+}
+
+.btn-success:hover {
+    background-color: #015933 !important;
+    border-color: #015933 !important;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(1, 50, 32, 0.15);
+}
+
+input.form-control:focus {
+    border-color: #013220;
+    box-shadow: 0 0 0 0.25rem rgba(1, 50, 32, 0.25);
+}
+
+code {
+    color: #013220;
+    background: #d4edda;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* تحسينات إضافية للداشبورد */
+.table-dark {
+    background: #013220 !important;
+}
+
+.badge {
+    padding: 0.5em 0.8em;
+    font-size: 90%;
+}
+
+.card-shadow {
+    box-shadow: 0 10px 30px rgba(1, 50, 32, 0.15) !important;
+}
